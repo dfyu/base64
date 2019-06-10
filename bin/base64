@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const path = require('path')
 const mimetype = require('mimetype')
 const fs = require('fs')
@@ -43,4 +44,4 @@ function run (pathname, isFirst = false) {
     }
 }
 run(pathname, true)
-module.exports = run
+
