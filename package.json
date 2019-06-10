@@ -1,0 +1,16 @@
+{
+    "name": "richole-base64",
+    "version": "1.0.0",
+    "description": "Convert any file to base64",
+    "main": "base64.js",
+    "author": "dafu yu",
+    "bin": {
+      "base64": "./translate.js"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/RicholeYu/Script-Base64/issues"
+    },
+    "homepage": "https://github.com/RicholeYu/Script-Base64#readme"
+  }
+  
