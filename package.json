@@ -1,6 +1,6 @@
 {
   "name": "richole-base64",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Convert any file to base64",
   "author": "dafu yu",
   "bin": {

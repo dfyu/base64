@@ -1,20 +1,20 @@
-const path = require('path')
-const mimetype = require('mimetype')
-const fs = require('fs')
+const path = require("path")
+const mimetype = require("mimetype")
+const fs = require("fs")
 function getBase64 (filepath) {
     let mime = mimetype.lookup(filepath)
-    return mime ? `data:${mime};base64,${fs.readFileSync(filepath).toString('base64')}` : ''
+    return mime ? `data:${mime};base64,${fs.readFileSync(filepath).toString("base64")}` : ""
 }
 
 function error () {
-    console.error('usage: base64 filename/dirname')
+    console.error("usage: base64 filename/dirname")
     process.exit(0)
 }
 
 function changeName (name) {
-    let arr = name.split('/')
+    let arr = name.split("/")
     arr[arr.length - 1] = `${arr[arr.length - 1]}_base64`
-    return arr.join('/')
+    return arr.join("/")
 }
 
 let argvs = process.argv.slice(2)
