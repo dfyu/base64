@@ -4,7 +4,7 @@
   "description": "Convert any file to base64",
   "author": "dafu yu",
   "bin": {
-    "base": "./bin/base64"
+    "base": "./base64.js"
   },
   "license": "MIT",
   "bugs": {

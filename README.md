@@ -4,9 +4,8 @@
  
 ```
 usage:
-npm i richole-base64 -g
+npm i @dfyu/base64 -g
 base64 test.mp3 >> out.mp3
 base64 test.png >> out.png
 base64 test.jpg >> out.jpg
-base64 img/
 ```
