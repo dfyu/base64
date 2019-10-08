@@ -1,7 +1,7 @@
 {
-  "name": "richole-base64",
+  "name": "@dfyu/base64",
   "version": "1.0.7",
-  "description": "Convert any file to base64",
+  "description": "Convert everything to base64",
   "author": "dafu yu",
   "bin": {
     "base": "./base64.js"

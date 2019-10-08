@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const path = require("path")
 const mimetype = require("mimetype")
 const fs = require("fs")
