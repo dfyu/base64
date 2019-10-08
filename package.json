@@ -1,6 +1,6 @@
 {
   "name": "@dfyu/base64",
-  "version": "1.0.7",
+  "version": "1.0.3",
   "description": "Convert everything to base64",
   "author": "dafu yu",
   "bin": {
